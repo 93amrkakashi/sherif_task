@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <!-- <link rel="stylesheet" href="style.css"> -->
   <style>
   
 *{
@@ -26,7 +26,7 @@
 
     .top {
       margin-top: 40px;
-      min-height: 40vh
+      max-height: 40vh;
     }
 
     h3 {
@@ -38,8 +38,9 @@
 
     .codes {
       display: flex;
-      justify-content: space-around;
-      align-items: center
+      justify-content: space-evenly;
+      align-items: center;
+      margin-bottom: 50px;
     }
 
     .logo,
@@ -54,7 +55,7 @@
 
     .info {
       display: flex;
-      justify-content: space-around;
+      justify-content: space-between;
       align-items: center;
       flex-wrap: wrap
     }
@@ -87,7 +88,16 @@
       justify-content: center;
       align-items: center
     }
-
+.kashf{
+      font-weight: 700;
+      font-size: 30px;
+      text-align: center;
+      width: 100%;
+      color: #ffa500;
+      display: flex;
+      justify-content: center;
+      align-items: center
+}
     .regular {
       border-radius: 8px;
       font-weight: 700;
@@ -174,7 +184,7 @@
       }
 
       .top {
-        min-height: 33vh
+        max-height: 33vh
       }
 
       .inner,
@@ -208,7 +218,7 @@
       }
 
       .table_last {
-        width: 100%
+        width: 65%
       }
 
       .zft {
@@ -216,16 +226,15 @@
         align-items: center;
         gap: 10px;
         margin: 0;
-        flex-direction: column;
-        justify-content: center
+        justify-content: space-between;
       }
 
       .text {
-        width: 100%
+        width: 75%
       }
 
       .zfta {
-        width: 220px
+        width: 150px
       }
 
       .download_btn {
@@ -255,8 +264,7 @@
           <p class="regular">dsfdsf</p>
         </div>
         <div class="inner">
-          <p class="orange">كشف الركاب</p>
-          <p class="regular"></p>
+          <p class="kashf">كشف الركاب</p>
         </div>
         <div class="alot">
           <div class="one">
@@ -326,7 +334,7 @@
     <div class="last">
       <div class="table_last">
         <h3>بيانات المرافقين</h3>
-        <table class="table table-bordered main-table text-center customer-details">
+        <table >
           <tbody>
             <tr>
               <th style="background-color: rgb(177, 172, 172); width: 5%;">#</th>
